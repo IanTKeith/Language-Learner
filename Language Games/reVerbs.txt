@@ -1,0 +1,12 @@
+attendre true
+confondre false
+défendre false
+descendre false
+entendre true
+interrompre true
+perdre false
+prétendre false
+rendre false
+répondre false
+rompre false
+vendre false

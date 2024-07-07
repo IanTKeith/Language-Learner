@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Games">
+      <UniqueIdentifier>{d8b1aca5-67b8-484b-a9d1-aeb43879f2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Français">
+      <UniqueIdentifier>{1518998e-e8c3-46d1-973c-5d2d02592aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Français\Words">
+      <UniqueIdentifier>{948817d3-79db-4b23-9fd4-ae0f39502759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Français\Words\Verbs">
+      <UniqueIdentifier>{0fd7f60c-5eba-473a-878d-53e102ce0eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games">
+      <UniqueIdentifier>{12f0512e-feaf-4477-9a4e-ad6bd2c97792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Français">
+      <UniqueIdentifier>{317dd71c-d03a-4887-b4dd-53a665636ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Français\Words">
+      <UniqueIdentifier>{ad9c1b66-8f1b-46ea-93e8-498ae18244e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Français\Words\Verbs">
+      <UniqueIdentifier>{daad091f-39f0-4d9e-a691-7f516c7114ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="conjugationGame.cpp">
+      <Filter>Source Files\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="vocabularyGame.cpp">
+      <Filter>Source Files\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="numberGame.cpp">
+      <Filter>Source Files\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="erVerb.cpp">
+      <Filter>Source Files\Français\Words\Verbs</Filter>
+    </ClCompile>
+    <ClCompile Include="irVerb.cpp">
+      <Filter>Source Files\Français\Words\Verbs</Filter>
+    </ClCompile>
+    <ClCompile Include="reVerb.cpp">
+      <Filter>Source Files\Français\Words\Verbs</Filter>
+    </ClCompile>
+    <ClCompile Include="verb.cpp">
+      <Filter>Source Files\Français\Words\Verbs</Filter>
+    </ClCompile>
+    <ClCompile Include="noun.cpp">
+      <Filter>Source Files\Français\Words</Filter>
+    </ClCompile>
+    <ClCompile Include="grammaireFrançaise.cpp">
+      <Filter>Source Files\Français</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="console.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="conjugationGame.hpp">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="IGame.hpp">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="vocabularyGame.hpp">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="grammaireFrançaise.hpp">
+      <Filter>Header Files\Français</Filter>
+    </ClInclude>
+    <ClInclude Include="word.hpp">
+      <Filter>Header Files\Français\Words</Filter>
+    </ClInclude>
+    <ClInclude Include="verb.hpp">
+      <Filter>Header Files\Français\Words\Verbs</Filter>
+    </ClInclude>
+    <ClInclude Include="reVerb.hpp">
+      <Filter>Header Files\Français\Words\Verbs</Filter>
+    </ClInclude>
+    <ClInclude Include="erVerb.hpp">
+      <Filter>Header Files\Français\Words\Verbs</Filter>
+    </ClInclude>
+    <ClInclude Include="irVerb.hpp">
+      <Filter>Header Files\Français\Words\Verbs</Filter>
+    </ClInclude>
+    <ClInclude Include="noun.hpp">
+      <Filter>Header Files\Français\Words</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="erVerbs.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="irVerbs.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="reVerbs.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="subjects.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="vocabulary.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+applaudir true
+avertir true
+bâtir false
+choisir false
+désobéir false
+établir true
+finir false
+grossir false
+guérir false
+maigrir false
+mincir false
+obéir true
+réfléchir false
+remplir false
+réussir false
+rougir false

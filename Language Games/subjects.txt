@@ -1,0 +1,23 @@
+Ian|masculine|singular|third|
+Un garçon|masculine|singular|third|
+Une fille|feminine|singular|third|
+Maman et papa|masculine|plural|third|
+Maman|feminine|singular|third|
+Papa|masculine|singular|third|
+Mon frère|masculine|singular|third|
+Nous|masculine|plural|first|
+Nous|masculine|plural|first|
+Nous|masculine|plural|first|
+Tu|masculine|singular|second|
+Tu|masculine|singular|second|
+Tu|masculine|singular|second|
+Vous|masculine|plural|second|
+Vous|masculine|plural|second|
+Vous|masculine|plural|second|
+Je|masculine|singular|first|
+Je|masculine|singular|first|
+Je|masculine|singular|first|
+Il|masculine|singular|third|
+Elle|feminine|singular|third|
+Ils|masculine|plural|third|
+Elles|feminine|plural|third|
